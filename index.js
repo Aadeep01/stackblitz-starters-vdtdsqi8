@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3010; 
 
 // 1. MongoDB Connection 
-const mongoURI = "mongodb+srv://choprakhushil13:1rfebIFKUYUBCiDe@cluster0.nhg4l.mongodb.net/ecom_db"; 
+const mongoURI = "mongodb+srv://aadeepkaur:aTlas2607@cluster0.8by9j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
